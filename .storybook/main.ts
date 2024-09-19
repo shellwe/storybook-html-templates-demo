@@ -5,14 +5,13 @@ const config: StorybookConfig = {
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
-    '@storybook/addon-mdx-gfm'
+    '@storybook/addon-mdx-gfm',
+    '@chromatic-com/storybook'
   ],
   framework: {
     name: '@storybook/web-components-vite',
     options: {},
   },
-  docs: {
-    autodocs: 'tag',
-  },
+  docs: {},
 };
 export default config;
